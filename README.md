@@ -27,11 +27,14 @@ the statistical models and all the visualization works were not for their own sa
 1. **Train Test Splitting**:
     1. sss `StratifiedShuffleSplit`
     1. k fold cross
+    1. upsampling to solve unbalance 
 1. **Models and hyper tuning**:
     1. Random Forest
     1. XGBOOST
-    1. Decision Trees
-    1. Logistic SMOTE
+    1. Gradient Boosting
+    1. Logistic l1 penalty
+    1. Logistic l2 penalty
+    1. SVM
 1. **Radar plt to compare performance**:
 1. **Summarize results**:
     1. [LIME](https://github.com/marcotcr/lime) interpretation
